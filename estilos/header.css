@@ -1,5 +1,7 @@
 
-
+.header{
+    padding-bottom: 5.5rem;
+}
 .navigation{
     display: flex;
     flex-direction: row;
@@ -8,9 +10,16 @@
     width: 100%;
     color: white;
     background-color: rgb(34, 34, 34);
-    padding:2rem 0;
+    padding:1.2rem 0;
     position: fixed;
     z-index: 1;
+}
+.logo img{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
 }
 .nav-menu{
     display: flex;
