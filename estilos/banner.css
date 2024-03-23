@@ -1,11 +1,25 @@
 
 
+.banner{
+    background-image: url(../imagens/banner\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
 .conjunto-de-itens-banner{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
     padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+.titulo-banner{
+    width: 700px;
 }
 .titulo-banner h1{
     font-size: 3rem;
@@ -13,4 +27,65 @@
 }
 .titulo-banner h1 span{
     color: rgb(218, 206, 49);
+}
+.botoes-banner button{
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    color: black;
+    background-color: rgb(218, 206, 49);
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.botoes-banner button:hover{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    transition: 0.3s;
+}
+/*tamanho da fonte  para tablet*/
+@media (max-width:768px){
+    .conjunto-de-itens-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .titulo-banner{
+        width: 500px;
+    }
+    .titulo-banner h1{
+        font-size: 2rem;
+    }
+    .botoes-banner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+@media (max-width:500px){
+    .titulo-banner{
+        width: 300px;
+    }
+    .titulo-banner h1{
+        font-size: 1.5rem;
+    }
+    .botoes-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+/*tamanho da fonte para celular*/
+@media (max-width:380px){
+    .titulo-banner{
+        width: 280px;
+    }
+    .titulo-banner h1{
+        font-size: 1.2rem;
+    }
 }
