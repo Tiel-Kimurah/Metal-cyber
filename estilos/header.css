@@ -29,6 +29,7 @@
 }
 .nav-menu li a{
     font-weight: bold;
+    font-size: 0.7rem;
 }
 .nav-menu li a:hover{
     color: rgb(218, 206, 49);
