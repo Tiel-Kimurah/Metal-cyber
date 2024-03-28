@@ -1,0 +1,64 @@
+
+.conjunto-de-itens-produtos{
+    background-color: rgb(34, 34, 34);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+}
+.container-produto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+}
+.item-produto{
+    background-image: url(../imagens/note_pixelart-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 450px;
+}
+.informacoes-itens-produto{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align:center;
+    gap: 0.2rem;
+    padding-top:5.2rem ;
+    padding-left: 2rem;
+}
+.item-produto h1{
+    padding-left: 2.5rem;
+}
+.item-produto img{
+    width: 200px;
+}
+.text-drone{
+    width: 230px;
+}
+.buy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-left: 3rem;
+}
+.buy img{
+    width: 50px;
+}
+.buy img:hover{
+    width: 55px;
+    transition: 0.2s;
+}
+.buy p{
+    font-weight: bold;
+}
