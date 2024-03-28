@@ -23,7 +23,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 350px;
+    width: 300px;
     height: 450px;
 }
 .informacoes-itens-produto{
@@ -38,13 +38,16 @@
 .informacoes-itens-produto h1{
     font-size: 1.3rem;
     padding-left: 0.3rem;
-    margin-top: -3.2rem;
+    margin-top: -3.8rem;
     padding-bottom: 1.8rem;
+}
+.informacoes-itens-produto .tit-frank{
+    font-size: 1.1rem;
 }
 .item-produto img{
     width: 200px;
     padding-left: 0.9rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
 }
 .text-drone{
     width: 230px;
@@ -69,8 +72,41 @@
     font-weight: bold;
 }
 .item-produto .invisible{
-    padding-bottom: 2rem;
+    padding-bottom: 2.2rem;
 }
 .item-produto .frank{
-    padding-bottom: 2rem;
+    padding-bottom: 2.6rem;
+}
+/*versao mobile*/
+@media (max-width:350px){
+    .item-produto{
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        width: 310px;
+        height: 390px;
+    }
+    .informacoes-itens-produto h1{
+        font-size: 1.2rem;
+        margin-top: -4.5rem;
+        padding-bottom: 1.8rem;
+    }
+    .item-produto img{
+        padding-left: 0.9rem;
+        padding-bottom: 0;
+    }
+    .buy p{
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    .item-produto p{
+        font-size: 0.7rem;
+    }
+    .item-produto .invisible{
+        padding-bottom: 1.6rem;
+    }
+    .item-produto .frank{
+        padding-bottom: 1.7rem;
+    }
 }
